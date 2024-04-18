@@ -17,7 +17,6 @@ class Solution
 {
 public:
     // 暴力解法 Violent solution
-
     vector<int> sortedSquares(vector<int> &A)
     {
         for (int i = 0; i < A.size(); i++)
