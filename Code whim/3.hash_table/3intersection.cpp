@@ -19,8 +19,9 @@ public:
             {
                 result_set.insert(num);
             }
-            return vector<int>(result_set.begin(), result_set.end());
+            
         }
+        return vector<int>(result_set.begin(), result_set.end());
     } // 这种用法对于从一个容器中去重并创建一个不包含重复元素的集合非常有用。
 };
 
